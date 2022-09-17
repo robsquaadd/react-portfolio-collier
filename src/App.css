@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+:root {
+  --color1: #1a3947;
+  --color2: #566575;
+  --color3: #797983;
+  --color4: #efbd9d;
+  --color5: #fca26e;
+  --color6: #f5751d;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.main-container {
+  background-image: url("./assets/images/pexels-jess-loiterton-4612307.jpg");
   min-height: 100vh;
+}
+
+header,
+footer {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: linear-gradient(var(--color1), var(--color2));
+  color: var(--color5);
+  padding: 1% 2% 1% 1%;
 }
 
-.App-link {
-  color: #61dafb;
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#contact-form-container {
+  padding: 3% 15%;
+}
+
+#contact-form {
+  background-color: var(--color4);
+  border-radius: 20px;
+  border: 3px solid var(--color1);
+  padding: 2% 2% 7% 3%;
+}
+
+#contact-form-content-container {
+  padding: 1%;
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form textarea {
+  display: block;
+  width: 98%;
+  margin: 0.5%;
+}
+
+#contact-form h1,
+#contact-form label,
+#contact-form p {
+  color: var(--color1);
+}
+
+.submit-btn {
+  float: right;
+  background-color: var(--color1);
+  color: var(--color5);
+  border-style: none;
+  border-radius: 5px;
+  padding: 1%;
+  width: 30%;
+  margin: 1%;
+}
+
+.submit-btn a {
+  text-decoration: none;
+  color: var(--color5);
+}
+
+footer {
+  flex-direction: row-reverse;
+}
+
+.footerDiv {
+  display: flex;
+  width: 10%;
+  justify-content: space-around;
+}
+
+.image {
+  max-height: 400px;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.aboutImg {
+  padding: 0 0 0 2%;
+  border-left: 2px solid var(--color1);
+}
+
+#about-me-container {
+  display: flex;
+  padding: 3% 15%;
+}
+
+#about-me-container p {
+  color: var(--color1);
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: auto 2%;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+#portfolio-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto 10%;
+  padding: 3% auto;
+}
+
+.project-card {
+  display: inline-block;
+  background-color: var(--color3);
+  border-radius: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 400px;
+  margin: 1%;
+}
+
+.project-card img {
+  height: 300px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.project-card h3 {
+  color: var(--color5);
+  padding: 2%;
+}
+
+#resume-section {
+  width: 70%;
+  padding: 3% 15%;
+  margin: auto;
+}
+
+.resume-btn,
+#resume-section h3 {
+  width: 100%;
+  text-align: center;
 }
