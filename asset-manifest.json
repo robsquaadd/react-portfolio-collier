@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-collier/static/css/main.db6e3efe.css",
+    "main.js": "/react-portfolio-collier/static/js/main.55641c5f.js",
+    "static/js/787.ab467a0e.chunk.js": "/react-portfolio-collier/static/js/787.ab467a0e.chunk.js",
+    "static/media/pexels-jess-loiterton-4612307.jpg": "/react-portfolio-collier/static/media/pexels-jess-loiterton-4612307.043aa2ab16829b5f83bc.jpg",
+    "static/media/robert-denver.jpg": "/react-portfolio-collier/static/media/robert-denver.a95411ef11be2bf7c66a.jpg",
+    "static/media/Resume2020.pdf": "/react-portfolio-collier/static/media/Resume2020.de657e65f632b3d5ab58.pdf",
+    "static/media/concertImg1bw.jpeg": "/react-portfolio-collier/static/media/concertImg1bw.e2806a7d969ea2112ee1.jpeg",
+    "static/media/github.png": "/react-portfolio-collier/static/media/github.1e39a6e4e7af13d49f1a.png",
+    "static/media/instagram.jpg": "/react-portfolio-collier/static/media/instagram.17019575cc6a719098a8.jpg",
+    "static/media/yardSale.jpg": "/react-portfolio-collier/static/media/yardSale.676f5a1a448440c75a84.jpg",
+    "index.html": "/react-portfolio-collier/index.html",
+    "main.db6e3efe.css.map": "/react-portfolio-collier/static/css/main.db6e3efe.css.map",
+    "main.55641c5f.js.map": "/react-portfolio-collier/static/js/main.55641c5f.js.map",
+    "787.ab467a0e.chunk.js.map": "/react-portfolio-collier/static/js/787.ab467a0e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db6e3efe.css",
+    "static/js/main.55641c5f.js"
+  ]
+}
