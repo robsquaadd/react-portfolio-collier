@@ -19,7 +19,7 @@ function Portfolio() {
     },
     {
       name: "credible",
-      link: "www.google.com",
+      link: "https://in-credible.herokuapp.com/signup",
       github: "https://github.com/quicksilver524/credible",
       image: credible,
     },
