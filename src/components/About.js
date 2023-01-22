@@ -15,6 +15,12 @@ function aboutMe() {
         working on impactful projects, collaborating with a team on which I have
         indispensable value, and creating applications that provide an
         unforgettable web experience to the consumers.
+        <br></br>
+        <br></br>
+        If you are looking to complete a development project or would like to
+        connect further, then please email me at robert.collier.120@gmail.com,
+        or add me on any of the social media networks that I have linked in the
+        lower right hand corner of this page.
       </p>
       <div className="aboutImg">
         <img src={denver} alt="robert in denver" className="image"></img>
